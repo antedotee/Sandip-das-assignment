@@ -7,7 +7,7 @@ services:
     volumes:
       - ghost_data:/var/lib/ghost/content
     environment:
-      url: http://localhost:2368
+      url: https://2db7-2409-40e3-399-faa0-90eb-d198-6eef-e99a.ngrok-free.app
       database__client: mysql
       database__connection__host: db
       database__connection__user: ghost
